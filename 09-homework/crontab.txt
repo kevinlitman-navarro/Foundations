@@ -1,0 +1,5 @@
+1.) To send the daily weather email --
+  0 12 * * * python3 daily_weather_emails.py 
+
+2.) To send the briefing every six hours -- 
+  0 */6 * * * python3 scraping_reddit.py
